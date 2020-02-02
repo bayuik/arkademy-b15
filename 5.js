@@ -1,8 +1,5 @@
 const cetak = panjang => {
-    // if(panjang % 2 == 0){
-    //     console.log(`harus bilangan ganjjil (${panjang})`);
-    //     return;
-    // }
+
     let str = '';
     const nilaiTengah = Math.floor(panjang / 5);
     const nilaiAkhir = Math.floor(panjang / 2)
